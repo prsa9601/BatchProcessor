@@ -17,6 +17,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+
 // ✅ ثبت تمام سرویس‌های Batching با یک خط
 builder.Services.AddBatchingServices();
 var app = builder.Build();

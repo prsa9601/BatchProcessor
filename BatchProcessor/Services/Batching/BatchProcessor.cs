@@ -13,7 +13,7 @@ namespace BatchProcessor.Services.Batching
         private readonly int _batchSize;
         private readonly ILogger _logger;
         private readonly Timer _timer;
-        private bool _disposed; 
+        private bool _disposed;
 
 
         public BatchProcessor(

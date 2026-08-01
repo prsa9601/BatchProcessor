@@ -17,7 +17,7 @@ namespace BatchProcessor.Extensions
                 var scopeFactory = sp.GetRequiredService<IServiceScopeFactory>();
 
                 return new BatchProcessor<PostLikeDto>(
-                    batchSize: 10,
+                    batchSize: 100,
                     interval: TimeSpan.FromSeconds(5),
                     processBatchAsync: async (items, ct) =>
                     {

@@ -15,7 +15,7 @@ namespace BatchProcessor.Services.DataBase
         {
             var entities = likes.Select(d => new PostLike
             {
-                Id= Guid.NewGuid(),
+                Id = Guid.NewGuid(),
                 PostId = d.PostId,
                 UserId = d.UserId,
                 LikedAt = d.LikedAt
