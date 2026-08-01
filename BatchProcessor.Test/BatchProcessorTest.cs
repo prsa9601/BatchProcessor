@@ -71,7 +71,7 @@ namespace BatchProcessor.Test
                     return Response.Fail(500, $"Error: {response.Message}");
             })
             .WithLoadSimulations(
-                Simulation.KeepConstant(copies: 15, during: TimeSpan.FromSeconds(5))
+                Simulation.KeepConstant(copies: 20, during: TimeSpan.FromSeconds(65))
             );
 
             // 3. اجرا و نمایش گزارش
