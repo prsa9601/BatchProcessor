@@ -16,7 +16,7 @@ Flush خودکار در خاموشی: وقتی برنامه بسته می‌شه
 تست‌پذیری: همراه با تست بار با NBomber برای شبیه‌سازی فشار بالا.
 
 🛠️ تکنولوژی‌ها
-.NET Core / .NET 6+
+.NET Core / .NET 10
 
 Entity Framework Core (SQL Server)
 
